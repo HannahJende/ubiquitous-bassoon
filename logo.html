@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Full-Screen Background Image</title>
+<style>
+    /* Reset default styles */
+    body, html {
+        height: 100%; /* Ensure the body takes up the full height */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        overflow: hidden; /* Hide any scrollbars that may appear */
+    }
+    .full-screen-image {
+        background-image: url('https://hannahjende.github.io/ubiquitous-bassoon/White_Aria_logo.png'); /* Link to image */
+        background-size: 100% 100%; /* Stretch the image to fill the container */
+        background-position: center; /* Center the image */
+        position: absolute; /* Absolute positioning to stretch across the page */
+        top: 0;
+        left: 0;
+        width: 100%; /* Stretch to full width */
+        height: 100%; /* Stretch to full height */
+    }
+</style>
+</head>
+<body>
+    <div class="full-screen-image"></div> <!-- Div to hold the image -->
+</body>
+</html>
